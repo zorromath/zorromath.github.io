@@ -1,0 +1,190 @@
+h1 {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  text-transform: capitalize;
+  font-size: 50pt;
+  padding: 100px;
+  color: #fff;
+}
+
+h2{font-family: 'Cinzel', serif;
+   text-align:center;
+} 
+
+#bandeau {
+  height: 800px;
+  background-image: url("overwatch-impressions.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.NOM {
+  text-align:left;
+  font-size:14pt;
+}
+
+header {
+background-color:#808080;
+}
+
+body {
+  background-color:#A0A0A0;
+}
+
+.mainmenubtn {
+  background-color: orange;
+  text-transform: capitalize;
+  color: black;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.mainmenubtn:hover {
+  background-color: #FFB93Fc2;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-child {
+  display: none;
+  background-color: #FFB93Fc2;
+  min-width: 200px;
+  position: absolute;
+  top: 100%;
+  margin-left:10px;
+}
+
+.dropdown-child a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Cinzel', serif;
+}
+
+.dropdown-child a:hover{
+  color:#FFB93F;
+  }
+
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+.logo {
+  position: absolute;
+  top: 2%;
+  left: 49%;
+}
+
+.installer {
+  background-color: #e97808c2;
+  border-radius: 10px;
+  border: 4px solid #fff;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 100%;
+}
+
+@keyframes changeColor {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: green; }
+  75% { color: orange; }
+  100% { color: purple; }
+}
+
+.clignotant {
+  animation:changeColor 4s infinite;
+}
+
+.bouton {
+  width: 15%;
+  margin: 0px auto;
+  margin-top: 350px;
+}
+
+
+.installer:hover {
+  background-color: #835222c2;
+}
+
+
+.gauche {
+  float: left;
+  width: 45%;
+  background-color: rgb(160 160 160);
+  font-size:14.8pt;
+}
+
+.droite {
+  float: right;
+  width: 45%;
+  background-color:black;
+}
+
+.gauche2 {
+  float: left;
+  width: 45%;
+  margin-top: 5px;
+  background-color:black;
+}
+
+.droite2 {
+  float: right;
+  width: 45%;
+  margin-left: 2px;
+  font-size:14.5pt;
+}
+
+.gauche3{
+  float:left;
+  width:45%;
+  background-color: rgb(160 160 160);
+  margin-top:5px;
+  font-size:14.5pt;
+  border:4px solid white;
+}
+
+.droite3{
+  float:right;
+  width:45%;
+}
+
+.gauche4{
+   float:left;
+   width:45%;
+   margin-top: 125px;
+}
+
+.droite4{
+  float:right;
+  width:45%;
+  font-size:14.5pt;
+}
+
+
+footer{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  height:100px;
+  margin-top:1300px;
+}
+
+.contenu-footer {
+  max-width: 1000px;
+  margin: 0 auto;
+ 
+}
