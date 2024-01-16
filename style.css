@@ -97,11 +97,11 @@ body {
 }
 
 @keyframes changeColor {
-  0% { color: red; }
-  25% { color: blue; }
-  50% { color: green; }
+  0% { color: white; }
+  25% { color: orange; }
+  50% { color: white; }
   75% { color: orange; }
-  100% { color: purple; }
+  100% { color: white; }
 }
 
 .clignotant {
