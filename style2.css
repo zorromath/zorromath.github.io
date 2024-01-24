@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  text-transform: capitalize;
+  font-size: 50pt;
+  padding: 100px;
+  color: #fff;
+}
+
+h2{font-family: 'Cinzel', serif;
+   text-align:center;
+} 
+
+#bandeau {
+  height: 500px;
+  background-image: url("https://mmos.com/wp-content/uploads/2017/02/overwatch-efi-numbani-new-hero-news-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(2);
+}
+
+
+header {
+background-color:#808080;
+}
+
+body {
+  background: -webkit-linear-gradient(90deg, #545454,#fa8500,#545454);                       
+   background: linear-gradient(90deg, #545454,#fa8500,#545454);                                         
+}
+
+
+
+
+
+@keyframes changeColor {
+  0% { color: #f76400; }
+  25% { color: #d35c00; }
+  50% { color: #f76400; }
+  75% { color: #d35c00; }
+  100% { color: #f76400; }
+}
+
+.clignotant {
+  animation:changeColor 4s infinite;
+}
+
+
+.contenu{
+  max-width:650px;
+  margin:0 auto;
+  padding:20px;
+}
+
+
+
